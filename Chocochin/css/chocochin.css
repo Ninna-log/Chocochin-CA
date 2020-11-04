@@ -1,0 +1,232 @@
+body{
+    background-color: white;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+
+#logo{
+    width: 250px;
+    height: 230px;
+    margin-top: -500px;
+    margin-left: 50px;
+   
+}
+
+.head1{
+    height: 50px;
+    background-color:#d7abff;
+}
+
+.head1 p {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: -32px;
+}
+
+#p1{
+    padding-left: 20px;
+    color: #ff2148;
+}
+
+#p2{
+    margin-left: 500px;
+    color: #ff2148;
+}
+
+.purple{
+    color: blueviolet;
+}
+
+.pink{
+    color: #ff143d;
+}
+
+.head2{
+    margin-top: 110px;
+    text-align: center;
+    margin-left: 110px;
+    margin-bottom: -98px;
+}
+
+h1{
+    font-family: system-ui;
+    font-weight: bold;
+    color: #E91E63;
+}
+.nav-menu{
+    margin-bottom: 114px;
+}
+
+li {
+    display: inline;
+    font-size: 22px;
+    padding-right: 70px;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: larger;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.main-content{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 8px;
+}
+
+.fotorama{
+    margin-left: 350px;
+}
+
+.content{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 100px;
+    line-height: 30px;
+    font-family: system-ui;
+    font-weight: 200;
+}
+
+#indent{
+    text-indent: 2cm;
+}
+
+h2{
+    font-family: system-ui;
+    color: #a544ff;
+    font-weight: 500;
+}
+
+#contact{
+    margin-top: 1cm;
+    width: 400px;
+    display: block;
+    text-align: justify;
+    margin-left: 193px;
+}
+
+.main-content-form div{
+    display: inline-block;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top: 8px;
+    width: 550px;
+}
+
+#form{
+    display: block;
+    margin-top: -275px;
+    height: 800px;
+    margin-left: 426px;
+}
+
+.border{
+    border-color: rgb(253, 147, 248);
+    border-width: 1px;
+    outline: none;
+    width: 186px;
+}
+
+.border-message{
+    border-color: rgb(255, 193, 252);
+    border-width: 1px;
+    outline: none;
+    width: 440px;
+    height: 100px;
+}
+
+#button{
+    width: 478px;
+    height: 2cm;
+    background: none;
+    border-width: 0cm;
+    outline: none;
+    background-color: #ec9090;
+    font-family: system-ui;
+    font-size: x-large;
+    font-weight: 100;
+    color: black;
+    margin-left: 66px;
+}
+
+#nombre{
+    padding-right: 5px;
+    padding-left: 3px;
+}
+
+#telefono{
+    padding-right: 5px;
+}
+
+#email{
+    margin-left: 6px;
+}
+
+strong{
+    font-family: system-ui;
+    color: #a544ff;
+    font-weight: 500;
+}
+
+.border-name{
+    border-color: rgb(253, 147, 248);
+    border-width: 1px;
+    outline: none;
+    width: 186px;
+    margin-left: 3px;
+}
+
+.border-email{
+    border-color: rgb(253, 147, 248);
+    border-width: 1px;
+    outline: none;
+    margin-left: 3px;
+    width: 213px;
+}
+
+.border-phone{
+    border-color: rgb(253, 147, 248);
+    border-width: 1px;
+    outline: none;
+    margin-left: 3px;
+    width: 199px;
+}
+
+.border-message{
+    border-color: rgb(253, 147, 248);
+    border-width: 1px;
+    outline: none;
+    margin-left: 4px;
+    width: 472px;
+}
+
+.border-lastname{
+    border-color: rgb(253, 147, 248);
+    border-width: 1px;
+    outline: none;
+    width: 186px;
+    margin-left: 3px;
+    width: 206px;
+}
+
+.img{
+    width: 1100px;
+}
+
+#contact h2,p{
+    font-family: system-ui;
+}
+
+#form label{
+    font-family: system-ui;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}

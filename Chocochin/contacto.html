@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChocoChín C.A</title>
+    <link rel="stylesheet" href="css/chocochin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head-container">
+            <div class="head1">
+                <p id="p1">Compañía de dulces número uno en Argentina<p>
+                <p id="p2">No te pierdas nuestras golosinas, seguínos! :D</p>             
+            </div>
+            <div class="head2">
+                 <h1>ChocoChín C.A</h1>
+                 <ul class="nav-menu">
+                    <li><a class="purple" href="index.html">Página Principal</a></li>
+                    <li><a class="purple">Nosotros</a></li>
+                    <li><a class="purple">Tienda</a></li>
+                    <li><a class="purple">Sucursales</a></li>
+                    <li><a class="pink" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo">
+            <img id="logo" src="img/logo1.jpg" alt="logo">
+        </div>
+    </header>
+
+    <main class="main-content-form">
+        <form action="registro.html" method="GET">
+            <div id="contact">
+                <h2>Contáctanos</h2>
+                <p>¿Tenés alguna duda o comentario sobre nuestras tiendas? Contactate con nosotros por cualquiera de nuestros medios de contacto y te responderemos a la brevedad.</p>
+                <p><strong>Teléfono: </strong><br> Consultas: 11 35642876<br>Llamanos</p>
+                <p><strong>Email:</strong><br><a class="email" href="info@chocochin.com.ar">info@chocochin.com.ar</a></p>
+            </div> 
+            <div id="form">
+                <div>
+                    <label id="nombre">Nombre:<input type="text" class="border-name" name="Nombre"></label>
+                    <label id="apellido">Apellido:<input type="text" class="border-lastname" name="Apellido"></label>
+                </div>
+                <div>
+                    <label id="telefono">Teléfono:<input type="text" class="border-phone" name="Telefono"></label>
+                    <label class="email">Email:<input type="text" class="border-email" name="Email"></label>
+                </div>
+                <div>
+                    <label id="message">Mensaje:<input type="text" class="border-message" name="Mensaje"></label>
+                </div>
+                <div>
+                    <input id="button" type="submit" value="Enviar Mensaje">
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
